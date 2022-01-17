@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+eureka:
+  client:
+    service-url: ${EUREKA_URI:http://localhost:8761/eureka}
+
+spring:
+  cloud:
+    gateway:

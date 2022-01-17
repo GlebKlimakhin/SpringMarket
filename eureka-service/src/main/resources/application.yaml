@@ -1,0 +1,16 @@
+server:
+  port: 8761
+  servlet:
+    context-path: /eureka
+
+eureka:
+  client:
+    fetch-registry: false
+    register-with-eureka: false
+
+spring:
+  flyway:
+    enabled: false
+  application:
+    name: eureka-service
+

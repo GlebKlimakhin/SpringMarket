@@ -1,0 +1,9 @@
+server:
+  port: 0
+
+jwt:
+  secret: dasdasdsadasdsadad
+
+spring:
+  application:
+    name: ms-products

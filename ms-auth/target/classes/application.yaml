@@ -1,0 +1,5 @@
+jwt:
+  secret: dasdasdsadasdsadad
+
+server:
+  port: 8189
